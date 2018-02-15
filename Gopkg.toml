@@ -31,5 +31,5 @@
 
 [metadata.heroku]
   root-package = "github.com/lieroz/TelegramChatBroadcastBot"
-  install = [ "./cmd/...", "./TelegramChatBroadcastBot" ]
+#  install = [ "./cmd/...", "./TelegramChatBroadcastBot" ]
   ensure = "true"
