@@ -20,8 +20,9 @@ var (
 
 // Bot message type
 const (
-	Group   = "group"
-	Private = "private"
+	Group      = "group"
+	SuperGroup = "supergroup"
+	Private    = "private"
 )
 
 var (
@@ -38,7 +39,7 @@ func GetEnvVars() {
 
 func ProcessUpdates(update *tgbotapi.Update) {
 	switch update.Message.Chat.Type {
-	case Group:
+	case Group, SuperGroup:
 		if update.Message.GroupChatCreated ||
 			update.Message.ChannelChatCreated ||
 			update.Message.SuperGroupChatCreated {

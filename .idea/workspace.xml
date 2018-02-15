@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c0be205-ec79-4917-84e1-0ec87187f848" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Gopkg.toml" afterPath="$PROJECT_DIR$/Gopkg.toml" />
+      <change beforePath="$PROJECT_DIR$/bot.go" afterPath="$PROJECT_DIR$/bot.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,70 +56,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bot.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bot.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="109">
+              <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
               <folding>
                 <element signature="e#14#128#0" expanded="true" />
-                <marker date="1518701809185" expanded="true" signature="1338:1369" ph="INSERT INTO ChatIDs... " />
-                <marker date="1518701809185" expanded="true" signature="1511:1544" ph="DELETE FROM ChatIDs... " />
-                <marker date="1518701809185" expanded="true" signature="1690:1712" ph="SELECT id FR... ChatIDs" />
-                <marker date="1518701809185" expanded="true" signature="2231:2292" ph="CREATE TABLE... IF" />
-                <marker date="1518701809185" expanded="true" signature="2405:2427" ph="SELECT id FR... ChatIDs" />
-                <marker date="1518701809185" expanded="true" signature="2668:2701" ph="DELETE FROM ChatIDs... " />
+                <marker date="1518704655706" expanded="true" signature="1383:1414" ph="INSERT INTO ChatIDs... " />
+                <marker date="1518704655706" expanded="true" signature="1556:1589" ph="DELETE FROM ChatIDs... " />
+                <marker date="1518704655706" expanded="true" signature="1735:1757" ph="SELECT id FR... ChatIDs" />
+                <marker date="1518704655706" expanded="true" signature="2276:2337" ph="CREATE TABLE... IF" />
+                <marker date="1518704655706" expanded="true" signature="2450:2472" ph="SELECT id FR... ChatIDs" />
+                <marker date="1518704655706" expanded="true" signature="2713:2746" ph="DELETE FROM ChatIDs... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="heroku.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heroku.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="55" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gopkg.toml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gopkg.toml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gopkg.lock" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gopkg.lock">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -146,8 +96,8 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c0630321-db2e-456a-ad35-dddb8615013b/console.sql" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/heroku.yml" />
-        <option value="$PROJECT_DIR$/bot.go" />
         <option value="$PROJECT_DIR$/Gopkg.toml" />
+        <option value="$PROJECT_DIR$/bot.go" />
       </list>
     </option>
   </component>
@@ -324,12 +274,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#14#128#0" expanded="true" />
-            <marker date="1518701809185" expanded="true" signature="1338:1369" ph="INSERT INTO ChatIDs... " />
-            <marker date="1518701809185" expanded="true" signature="1511:1544" ph="DELETE FROM ChatIDs... " />
-            <marker date="1518701809185" expanded="true" signature="1690:1712" ph="SELECT id FR... ChatIDs" />
-            <marker date="1518701809185" expanded="true" signature="2231:2292" ph="CREATE TABLE... IF" />
-            <marker date="1518701809185" expanded="true" signature="2405:2427" ph="SELECT id FR... ChatIDs" />
-            <marker date="1518701809185" expanded="true" signature="2668:2701" ph="DELETE FROM ChatIDs... " />
+            <marker date="1518704655706" expanded="true" signature="1383:1414" ph="INSERT INTO ChatIDs... " />
+            <marker date="1518704655706" expanded="true" signature="1556:1589" ph="DELETE FROM ChatIDs... " />
+            <marker date="1518704655706" expanded="true" signature="1735:1757" ph="SELECT id FR... ChatIDs" />
+            <marker date="1518704655706" expanded="true" signature="2276:2337" ph="CREATE TABLE... IF" />
+            <marker date="1518704655706" expanded="true" signature="2450:2472" ph="SELECT id FR... ChatIDs" />
+            <marker date="1518704655706" expanded="true" signature="2713:2746" ph="DELETE FROM ChatIDs... " />
           </folding>
         </state>
       </provider>
@@ -340,12 +290,12 @@
           <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="e#14#128#0" expanded="true" />
-            <marker date="1518701809185" expanded="true" signature="1338:1369" ph="INSERT INTO ChatIDs... " />
-            <marker date="1518701809185" expanded="true" signature="1511:1544" ph="DELETE FROM ChatIDs... " />
-            <marker date="1518701809185" expanded="true" signature="1690:1712" ph="SELECT id FR... ChatIDs" />
-            <marker date="1518701809185" expanded="true" signature="2231:2292" ph="CREATE TABLE... IF" />
-            <marker date="1518701809185" expanded="true" signature="2405:2427" ph="SELECT id FR... ChatIDs" />
-            <marker date="1518701809185" expanded="true" signature="2668:2701" ph="DELETE FROM ChatIDs... " />
+            <marker date="1518704655706" expanded="true" signature="1383:1414" ph="INSERT INTO ChatIDs... " />
+            <marker date="1518704655706" expanded="true" signature="1556:1589" ph="DELETE FROM ChatIDs... " />
+            <marker date="1518704655706" expanded="true" signature="1735:1757" ph="SELECT id FR... ChatIDs" />
+            <marker date="1518704655706" expanded="true" signature="2276:2337" ph="CREATE TABLE... IF" />
+            <marker date="1518704655706" expanded="true" signature="2450:2472" ph="SELECT id FR... ChatIDs" />
+            <marker date="1518704655706" expanded="true" signature="2713:2746" ph="DELETE FROM ChatIDs... " />
           </folding>
         </state>
       </provider>
@@ -378,14 +328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="912" column="21" lean-forward="false" selection-start-line="912" selection-start-column="21" selection-end-line="912" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gopkg.in/telegram-bot-api.v4/types.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="156" column="4" lean-forward="false" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -437,27 +379,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bot.go">
+    <entry file="file://$PROJECT_DIR$/vendor/gopkg.in/telegram-bot-api.v4/types.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#128#0" expanded="true" />
-            <marker date="1518701809185" expanded="true" signature="1338:1369" ph="INSERT INTO ChatIDs... " />
-            <marker date="1518701809185" expanded="true" signature="1511:1544" ph="DELETE FROM ChatIDs... " />
-            <marker date="1518701809185" expanded="true" signature="1690:1712" ph="SELECT id FR... ChatIDs" />
-            <marker date="1518701809185" expanded="true" signature="2231:2292" ph="CREATE TABLE... IF" />
-            <marker date="1518701809185" expanded="true" signature="2405:2427" ph="SELECT id FR... ChatIDs" />
-            <marker date="1518701809185" expanded="true" signature="2668:2701" ph="DELETE FROM ChatIDs... " />
-          </folding>
+        <state relative-caret-position="4">
+          <caret line="93" column="4" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gopkg.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bot.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+          <folding>
+            <element signature="e#14#128#0" expanded="true" />
+            <marker date="1518704655706" expanded="true" signature="1383:1414" ph="INSERT INTO ChatIDs... " />
+            <marker date="1518704655706" expanded="true" signature="1556:1589" ph="DELETE FROM ChatIDs... " />
+            <marker date="1518704655706" expanded="true" signature="1735:1757" ph="SELECT id FR... ChatIDs" />
+            <marker date="1518704655706" expanded="true" signature="2276:2337" ph="CREATE TABLE... IF" />
+            <marker date="1518704655706" expanded="true" signature="2450:2472" ph="SELECT id FR... ChatIDs" />
+            <marker date="1518704655706" expanded="true" signature="2713:2746" ph="DELETE FROM ChatIDs... " />
+          </folding>
         </state>
       </provider>
     </entry>
