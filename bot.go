@@ -84,7 +84,7 @@ func BroadcastMessage(message string) {
 	}
 
 	for rows.Next() {
-		var chatID int32
+		var chatID int64
 		rows.Scan(&chatID)
 
 		bot.Send(tgbotapi.NewMessage(
