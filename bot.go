@@ -88,7 +88,7 @@ func BroadcastMessage(message string) {
 		rows.Scan(&chatID)
 
 		bot.Send(tgbotapi.NewMessage(
-			int64(chatID),
+			chatID,
 			message,
 		))
 	}
@@ -117,10 +117,10 @@ func SetUpDatabase() {
 	}
 
 	for rows.Next() {
-		var chatID int32
+		var chatID int64
 		rows.Scan(&chatID)
 
-		if _, err = bot.GetChat(tgbotapi.ChatConfig{ChatID: int64(chatID)}); err != nil {
+		if _, err = bot.GetChat(tgbotapi.ChatConfig{ChatID: chatID}); err != nil {
 			if _, err = db.Exec("DELETE FROM ChatIDs WHERE id = $1", chatID); err != nil {
 				log.Fatalf("Error deleting from table: %q", err)
 			}
